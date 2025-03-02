@@ -8,12 +8,13 @@ html {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
-
+ /* general styling */
 :root {
   --main-color: #f8b281;
   --secondary-color: #1b1b1b;
 }
 
+/* custom font, you can call font-family as you like */
 @font-face {
   font-family: "argonite";
   src: url("./assets/stone\ orgonite.woff");
@@ -22,7 +23,9 @@ section {
   padding: 5%;
 }
 
-h2 {
+
+/* 1rem = 16px, rem adapts to different screen sizes */
+h2 {  
   font-size: 2.5rem;
   line-height: 125%;
   padding: 1rem 0rem;
@@ -122,6 +125,7 @@ nav svg {
   z-index: -1;
 }
 
+/* SECTION CLASSES */
 .classes {
   color: var(--secondary-color);
   text-align: center;
@@ -147,6 +151,8 @@ nav svg {
   font-size: 2rem;
 }
 
+
+/* SECTION ABOUT  */
 .about {
   color: var(--secondary-color);
 }
